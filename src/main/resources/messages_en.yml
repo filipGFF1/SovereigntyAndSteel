@@ -1,0 +1,116 @@
+# ==========================================
+# Sovereignty & Steel: Island Realm (1.21.4)
+# English Language Pack (Default)
+# Author: filipGFF1
+# ==========================================
+
+general:
+  prefix: "&6&l[SOVEREIGNTY]&r "
+  only_players: "&cOnly players can manage a nation!"
+  no_permission: "&cYou do not have permission to execute this command."
+  player_not_found: "&cPlayer not found: &e{player}"
+  invalid_number: "&cPlease enter a valid positive number!"
+  nation_not_found: "&cNo nation found with that name!"
+  must_be_in_nation: "&cYou must belong to a nation to use this command!"
+  leader_or_officer_only: "&cOnly the Leader or an Officer can perform this action!"
+  combat_tagged: "&cYou cannot execute this command while in combat! (Combat-Tag: {seconds}s remaining)"
+
+bank:
+  title: "&6&l======== [ NATIONAL TREASURY: {nation} ] ========"
+  balance: "&7Vault Treasury Balance: &6&l{balance}"
+  regime: "&7Political Regime: &f{regime}"
+  tech_tier: "&7Technology Level: &b{tech}"
+  vault_tier: "&7National Vault Storage: &e{vault} &8({slots} slots)"
+  autosell_status: "&6⭐ Auto-Sell Module: {status}"
+  autosell_on: "&aENABLED"
+  autosell_off: "&cDISABLED"
+  fortifications: "&7Border Fortifications: &e{wall}"
+  chunks_owned: "&7Claimed Chunks: &e{count} chunks"
+  daily_upkeep: "&7Daily Upkeep Cost: &c{total} &8({per_chunk}/chunk)"
+  status_debt: "&c&lSTATUS: INDEBTED (&4Day {days}/3&c) &7- Regime buffs disabled!"
+  status_stable: "&a&lSTATUS: FINANCIALLY STABLE &7(All buffs active)"
+  usage_deposit: "&eDeposit funds: &f/country deposit <amount>"
+  usage_withdraw: "&eWithdraw funds: &f/country withdraw <amount> &7(Leader/Officer only)"
+  usage_vault: "&eOpen storage vault: &f/country vault &7[1-5|upgrade|autosell]"
+  deposited: "&aSuccessfully deposited &6{amount} &ainto the National Treasury!"
+  withdrawn: "&aSuccessfully withdrew &6{amount} &afrom the National Treasury!"
+  insufficient_funds_player: "&cYou do not have enough money in your wallet! Needed: {amount}"
+  insufficient_funds_nation: "&cThe National Treasury has insufficient funds! Available: {balance}"
+
+vault:
+  page_locked: "&cVault chest #{page} has not been unlocked yet!"
+  upgrade_hint: "&eUse /country vault upgrade to expand your national storage."
+  autosell_requires_netherite: "&cThe Auto-Sell module requires Vault Tier V (Netherite)!"
+  autosell_toggled: "&6&l[AUTO-SELL] &fAuto-Sell module state changed to: {status}"
+  sold_summary: "&6&l[AUTO-SELL] &fLiquidated resources across all vault chests for a total of: &a+{earned} &7(deposited into National Treasury)!"
+  empty_or_no_sellables: "&eNational vault chests are empty or contain no sellable items."
+
+claim:
+  success: "&aSuccessfully claimed chunk &e({x}, {z}) &afor &f{nation}&a!"
+  cost_deducted: "&7Registration cost of &6{cost} &7deducted from the National Treasury."
+  already_claimed: "&cThis chunk is already claimed by {nation}!"
+  max_chunks_reached: "&cYour nation has reached its maximum chunk limit ({max}) for its current Technology Tier!"
+  not_adjacent: "&cNew claims must be adjacent to existing national territory or the Bastion Core!"
+  unclaim_success: "&eSuccessfully relinquished chunk &f({x}, {z})&e. Territory has returned to wild island wilderness."
+  cannot_unclaim_core: "&cYou cannot unclaim the chunk containing your Bastion Core!"
+
+create:
+  success: "&aSuccessfully founded new island nation: &e{name} &8[&f{tag}&8]&a!"
+  fee_deducted: "&7Registration fee paid: &6{cost}"
+  bastion_given: "&eYou received the &5Bastion Core&e. Place it at a strategic location on your island to establish your capital!"
+  already_in_nation: "&cYou are already a member of a nation! Leave your current nation first."
+  name_taken: "&cA nation with that name or tag already exists!"
+
+invite:
+  sent: "&aSent nation invitation to player &6{player}&a!"
+  received: "&eYou received an official invitation to join nation &f{name} &8[{tag}] &efrom &f{sender}&e!\n&aType &e/country join {name} &ato accept (expires in 2 minutes)."
+  already_member: "&ePlayer {player} is already a citizen of your nation!"
+  already_in_other: "&cPlayer {player} is already a member of another nation ({nation})!"
+  cannot_invite_self: "&cYou cannot invite yourself!"
+
+join:
+  success: "&aYou have successfully joined &f{name}&a as an official citizen!"
+  broadcast: "&6[NATION] &aPlayer &e{player} &ahas joined the nation!"
+  no_invite: "&cYou do not have an active invitation to join &f{name}&c!"
+  left_current_first: "&cYou are already in a nation! Leave it first using /country leave."
+
+leave:
+  success: "&eYou have left your nation."
+  is_leader: "&cAs the Leader, you cannot leave the nation! Transfer leadership or disband using /country disband CONFIRM."
+
+disband:
+  warning: "&4&lWARNING: &cThis will permanently delete your nation, kick all members, and erase your territory!\n&eTo confirm, type: &f/country disband CONFIRM"
+  broadcast: "&4&l[FALL OF A REALM] &cThe nation of &f{name} &chas been disbanded by its Sovereign!\n&7Its lands have returned to the untamed wilderness..."
+
+help:
+  header: "&6&l=== Sovereignty & Steel: Island Realm (1.21.4) ==="
+  bank: "&e/country bank &7(or &e/bank&7) - &fNational Treasury, finances & Upkeep"
+  vault: "&e/country vault [1-5|upgrade|autosell] &7- &fMulti-page Storage & Auto-Sell"
+  deposit: "&e/country deposit <amount> &7- &fDeposit funds to National Treasury"
+  withdraw: "&e/country withdraw <amount> &7- &fWithdraw funds (Leader/Officer only)"
+  claim: "&e/country claim &7(or &e/claim&7) - &fAssimilate chunk for nation with cooldown"
+  unclaim: "&e/country unclaim &7(or &e/unclaim&7) - &fRelinquish current chunk"
+  wall: "&e/country wall &7- &fManage self-repairing defensive perimeter walls"
+  regime: "&e/country regime &7- &fChoose political doctrine (8 doctrines available)"
+  tech: "&e/country tech &7- &fNational technology research tree (Tier I - V)"
+  color: "&e/country color <#HEX> &7- &fChange nation border color on web maps"
+  territory: "&e/country territory &7(or &e/teren&7) - &fInspect current chunk ownership"
+  recipes: "&e/country recipes &7(or &e/crafting&7) - &fBrowse all custom items & machines"
+  create: "&e/country create <name> <tag> &7- &fFound a new island nation & receive Bastion Core"
+  invite: "&e/country invite <player> &7- &fInvite a player to your nation"
+  join: "&e/country join <name> &7- &fAccept an invitation & join a nation"
+  leave: "&e/country leave &7- &fLeave your current nation"
+  disband: "&e/country disband CONFIRM &7- &4Permanently&7 dissolve your nation"
+  info: "&e/country info [name] &7- &fInspect economy, GDP, fortifications & military"
+  mint: "&e/country mint <copper|gold> <amount> &7- &fMint national currency coins"
+  top: "&e/country top &7- &fOpen island rankings leaderboard"
+  war: "&e/country war <nation> &7- &fDeclare war on a rival realm"
+  relation: "&e/country relation <ally|nap|neutral|rival> <nation> &7- &fDiplomatic pacts"
+  surrender: "&e/country surrender &7- &fSurrender war (cede 25% land, 70% treasury, tribute)"
+  siegewindow: "&e/country siegewindow <from> <to> &7- &fConfigure bastion defense window"
+  chat: "&e/tc <msg> &7- &fNation chat | &e/ac <msg> &7- &fAllied chat"
+  general: "&e/country general &7(or &e/country drumroll&7) - &fGeneral Paolo Or'e War March ability"
+  tribute: "&e/country tribute &7- &fPay tribute to pirate fleets"
+  trash: "&e/country trash &7(or &e/trash&7) - &fWaste disposal bin"
+  sit: "&e/country sit &7(or &e/sit&7) - &fSit down on stairs, chairs, or ground"
+  author: "&e/country author &7- &fView official plugin credentials and developer info"

@@ -1,0 +1,116 @@
+# ==========================================
+# Sovereignty & Steel: Island Realm (1.21.4)
+# Polski Pakiet Językowy (Polish)
+# Autor: filipGFF1
+# ==========================================
+
+general:
+  prefix: "&6&l[SOVEREIGNTY]&r "
+  only_players: "&cTylko gracze mogą zarządzać państwem!"
+  no_permission: "&c諧Nie posiadasz uprawnień do wykonania tej komendy."
+  player_not_found: "&cNie znaleziono gracza: &e{player}"
+  invalid_number: "&cPodaj prawidłową liczbę dodatnią!"
+  nation_not_found: "&cNie znaleziono państwa o takiej nazwie!"
+  must_be_in_nation: "&cMusisz należeć do państwa, aby użyć tej komendy!"
+  leader_or_officer_only: "&cTylko Władca lub Oficer może wykonać tę czynność!"
+  combat_tagged: "&cNie możesz wykonać tej komendy podczas walki! (Combat-Tag: pozostało {seconds}s)"
+
+bank:
+  title: "&6&l======== [ SKARBIEC NARODOWY: {nation} ] ========"
+  balance: "&7Stan konta w Vault: &6&l{balance}"
+  regime: "&7Ustrój państwa: &f{regime}"
+  tech_tier: "&7Poziom technologii: &b{tech}"
+  vault_tier: "&7Pojemność Skarbca Krajowego: &e{vault} &8({slots} slotów)"
+  autosell_status: "&6⭐ Moduł Auto-Sell: {status}"
+  autosell_on: "&aWŁĄCZONY"
+  autosell_off: "&cWYŁĄCZONY"
+  fortifications: "&7Fortyfikacje graniczne: &e{wall}"
+  chunks_owned: "&7Posiadane chunki: &e{count} chunków"
+  daily_upkeep: "&7Dzienny koszt utrzymania (Upkeep): &c{total} &8({per_chunk}/chunk)"
+  status_debt: "&c&lSTAN: ZADŁUŻENIE (&4Dzień {days}/3&c) &7- Bonusy ustrojowe wyłączone!"
+  status_stable: "&a&lSTAN: FINANSE STABILNE &7(Wszystkie bonusy aktywne)"
+  usage_deposit: "&eWpłata do banku: &f/panstwo wplac <kwota>"
+  usage_withdraw: "&eWypłata z banku: &f/panstwo wyplac <kwota> &7(tylko Władca/Oficer)"
+  usage_vault: "&eSkrzynie skarbca: &f/panstwo skarbiec &7[1-5|ulepsz|autosell]"
+  deposited: "&aPomyślnie zdeponowano &6{amount} &aw Skarbcu Narodowym!"
+  withdrawn: "&aPomyślnie wypłacono &6{amount} &aze Skarbca Narodowego!"
+  insufficient_funds_player: "&cNie posiadasz tylu pieniędzy w portfelu! Wymagane: {amount}"
+  insufficient_funds_nation: "&cSkarbiec Narodowy posiada niewystarczające środki! Dostępne: {balance}"
+
+vault:
+  page_locked: "&cSkrzynia #{page} nie została jeszcze odblokowana!"
+  upgrade_hint: "&eUżyj /panstwo skarbiec ulepsz, aby powiększyć skarbiec."
+  autosell_requires_netherite: "&cModuł Auto-Sell wymaga ulepszenia Skarbca do Poziomu V (Netherytowego)!"
+  autosell_toggled: "&6&l[AUTO-SELL] &fZmieniono stan modułu Auto-Sell na: {status}"
+  sold_summary: "&6&l[AUTO-SELL] &fSpieniężono surowce ze skrzyń skarbca za łączną kwotę: &a+{earned} &7(zdeponowano w Skarbcu Narodowym)!"
+  empty_or_no_sellables: "&eSkrzynie skarbca są puste lub nie zawierają surowców do skupu."
+
+claim:
+  success: "&aPomyślnie zaasymilowano chunk &e({x}, {z}) &adla &f{nation}&a!"
+  cost_deducted: "&7Pobrano koszt rejestracji terytorium: &6{cost} &7ze Skarbca."
+  already_claimed: "&cTen chunk należy już do państwa {nation}!"
+  max_chunks_reached: "&cTwoje państwo osiągnęło maksymalny limit chunków ({max}) dla obecnego poziomu technologii!"
+  not_adjacent: "&cNowo przejmowany chunk musi graniczyć z dotychczasowym terytorium lub Rdzeniem Bastionu!"
+  unclaim_success: "&ePomyślnie zrzeczono się chunka &f({x}, {z})&e. Teren powrócił do dzikiej natury wyspy."
+  cannot_unclaim_core: "&cNie możesz zrzec się chunka zawierającego Rdzeń Bastionu!"
+
+create:
+  success: "&aPomyślnie założono nowe państwo wyspiarskie: &e{name} &8[&f{tag}&8]&a!"
+  fee_deducted: "&7Pobrano opłatę rejestracyjną: &6{cost}"
+  bastion_given: "&eOtrzymałeś &5Rdzeń Bastionu&e. Postaw go w strategicznym punkcie wyspy, aby wyznaczyć stolicę!"
+  already_in_nation: "&cNależysz już do państwa! Najpierw opuść obecne państwo."
+  name_taken: "&cPaństwo o takiej nazwie lub tagu już istnieje!"
+
+invite:
+  sent: "&aWysłano oficjalne zaproszenie do państwa dla gracza &6{player}&a!"
+  received: "&eOtrzymałeś oficjalne zaproszenie do państwa &f{name} &8[{tag}] &eod gracza &f{sender}&e!\n&aWpisz &e/panstwo dolacz {name} &aaby dołączyć (ważne przez 2 minuty)."
+  already_member: "&eGracz {player} jest już obywatelem Twojego państwa!"
+  already_in_other: "&cGracz {player} należy już do innego państwa ({nation})!"
+  cannot_invite_self: "&cNie możesz zaprosić samego siebie!"
+
+join:
+  success: "&aDołączyłeś do obywateli państwa &f{name}&a!"
+  broadcast: "&6[PAŃSTWO] &aGracz &e{player} &adołączył do państwa!"
+  no_invite: "&cNie posiadasz ważnego zaproszenia do państwa &f{name}&c!"
+  left_current_first: "&cNależysz już do państwa! Wpisz najpierw /panstwo opusc."
+
+leave:
+  success: "&eOpuściłeś swoje dotychczasowe państwo."
+  is_leader: "&cJako Władca nie możesz opuścić państwa! Przekaż władzę lub rozwiąż państwo wpisując /panstwo rozwiaz POTWIERDZ."
+
+disband:
+  warning: "&4&lUWAGA: &cTa operacja bezpowrotnie usunie państwo, wyrzuci obywateli i zlikwiduje tereny!\n&eAby potwierdzić, wpisz: &f/panstwo rozwiaz POTWIERDZ"
+  broadcast: "&4&l[UPADEK PAŃSTWA] &cPaństwo &f{name} &czostało oficjalnie rozwiązane przez swojego Władcę.\n&7Jego tereny powróciły do dzikiej natury wyspy..."
+
+help:
+  header: "&6&l=== Sovereignty & Steel: Island Realm (1.21.4) ==="
+  bank: "&e/panstwo bank &7(lub &e/bank&7) - &fSkarbiec Narodowy Vault, finanse i Upkeep"
+  vault: "&e/panstwo skarbiec [1-5|ulepsz|autosell] &7- &fWielostronicowy Skarbiec Krajowy i Auto-Sell"
+  deposit: "&e/panstwo wplac <kwota> &7- &fWpłata ze swojego portfela do Skarbca"
+  withdraw: "&e/panstwo wyplac <kwota> &7- &fWypłata ze Skarbca (tylko Władca/Oficer)"
+  claim: "&e/panstwo claim &7(lub &e/claim&7) - &fPłatna asymilacja obecnego chunka z cooldownem"
+  unclaim: "&e/panstwo unclaim &7(lub &e/unclaim&7) - &fZrzeczenie się obecnego chunka"
+  wall: "&e/panstwo mur &7- &fZarządzanie samobudującymi się murami obronnymi"
+  regime: "&e/panstwo ustroj &7- &fWybór ustroju politycznego państwa (8 doktryn)"
+  tech: "&e/panstwo upgrady &7- &fDrzewko technologiczne państwa (Tier I - V)"
+  color: "&e/panstwo kolor <#HEX> &7- &fZmiana barw na mapach (Squaremap, Dynmap, BlueMap, Pl3xMap)"
+  territory: "&e/panstwo teren &7(lub &e/teren&7) - &fSprawdza aktualne terytorium (państwo / dzicz)"
+  recipes: "&e/panstwo receptury &7(lub &e/crafting&7) - &fPokazuje jak craftować wszystkie przedmioty"
+  create: "&e/panstwo stworz <nazwa> <tag> &7- &fZałożenie nowego państwa i odbiór Rdzenia Bastionu"
+  invite: "&e/panstwo zapros <gracz> &7- &fWysłanie zaproszenia do państwa"
+  join: "&e/panstwo dolacz <nazwa> &7- &fDołączenie do państwa"
+  leave: "&e/panstwo opusc &7- &fOpuszczenie obecnego państwa"
+  disband: "&e/panstwo rozwiaz POTWIERDZ &7- &4Trwałe&7 rozwiązanie państwa"
+  info: "&e/panstwo info [nazwa] &7- &fPodgląd gospodarki, PKB, murów i wojska"
+  mint: "&e/panstwo mennica <miedz|zloto> <ilosc> &7- &fBicie monet narodowych"
+  top: "&e/panstwo top &7- &fRanking państw na wyspie"
+  war: "&e/panstwo wojna <państwo> &7- &fWypowiedzenie wojny"
+  relation: "&e/panstwo relacja <sojusz|nap|neutralny|rywal> <państwo> &7- &fPakty dyplomatyczne"
+  surrender: "&e/panstwo kapituluj &7- &fKapitulacja w wojnie (oddanie 25% ziemi, 70% skarbca, trybut)"
+  siegewindow: "&e/panstwo oknowojenne <od> <do> &7- &fKonfiguracja okna obrony bastionu"
+  chat: "&e/tc <wiadomość> &7- &fCzat państwowy | &e/ac <wiadomość> &7- &fCzat sojuszniczy"
+  general: "&e/panstwo wodz &7(lub &e/panstwo werbel&7) - &fZdolność bojowa Generała Paolo Or'e"
+  tribute: "&e/panstwo haracz &7- &fOpłacenie haraczu najeźdźcom pirackim"
+  trash: "&e/panstwo kosz &7(lub &e/kosz&7) - &fKosz na zbędne przedmioty (utylizacja)"
+  sit: "&e/panstwo sit &7(lub &e/sit&7) - &fSiadanie na ziemi lub schodkach"
+  author: "&e/panstwo author &7- &fCertyfikat i informacje o autorze pluginu"

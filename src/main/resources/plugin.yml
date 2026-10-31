@@ -1,0 +1,62 @@
+name: SovereigntyAndSteel
+version: '1.0.0'
+main: pl.sovereignty.SovereigntyPlugin
+api-version: '1.21'
+author: filipGFF1
+description: Sovereignty & Steel - Island Realm plugin for Minecraft 1.21.4 by filipGFF1
+softdepend: [Vault, Essentials, squaremap, dynmap, BlueMap, Pl3xMap]
+commands:
+  country:
+    description: Manage your island nation realm (English / International)
+    aliases: [panstwo, nation, kingdom, kraj, sovereignty, reino, pais]
+  panstwo:
+    description: Zarządzanie własnym państwem wyspiarskim (Polski)
+    aliases: [country, kraj, sovereignty, nation]
+  kraj:
+    description: Zarządzanie własnym państwem wyspiarskim
+    aliases: [panstwo, country, sovereignty, nation]
+  sovereigntyadmin:
+    description: Sovereignty & Steel administrative control commands
+    aliases: [sadmin, sa, countryadmin, admincountry]
+    permission: sovereignty.admin
+  crafting:
+    description: Interactive 3x3 crafting matrix and custom machine recipes
+    aliases: [craftingi, receptury, receptura, recipes, recipe, recetas]
+  teren:
+    description: Check current chunk territorial allegiance (Nation, Foreign or Wilderness)
+    aliases: [granica, granice, dzicz, gdzie, territory, land, territorio]
+  claim:
+    description: Assimilate and claim the current chunk for your nation with cooldown
+    aliases: [zajmij, claimland, reclamar]
+  unclaim:
+    description: Relinquish current chunk sovereignty back to the wilderness
+    aliases: [odpusc, unclaimland, renunciar]
+  bank:
+    description: National Treasury and Vault financial management
+    aliases: [panstwobank, countrybank, treasury, banco]
+  skarbiec:
+    description: National Storage Vault, multi-page chests and auto-sell
+    aliases: [panstwoskarbiec, magazyn, vault, storage, tesoro]
+  kosz:
+    description: Portable waste disposal trash bin
+    aliases: [trash, bin, smietnik, smieci, garbage, basura]
+  sit:
+    description: Sit down comfortably on stairs, chairs, slabs, or flat ground
+    aliases: [siadz, usiadz, siadaj, seat, sentarse]
+  tc:
+    description: Nation / Town internal citizen chat
+    aliases: [townchat, panstwochat, kchat, countrychat, nationchat]
+  ac:
+    description: Diplomatic allied realm chat
+    aliases: [sojuszchat, allychat]
+  sklep:
+    description: Server commercial economy market & GUI shop
+    aliases: [shop, bsklep, market, tienda]
+    permission: sovereignty.use
+permissions:
+  sovereignty.use:
+    description: Basic nation creation and management privileges
+    default: true
+  sovereignty.admin:
+    description: Administrative and bypass permissions
+    default: op

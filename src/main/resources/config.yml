@@ -1,0 +1,64 @@
+# =========================================================================
+# SOVEREIGNTY & STEEL: ISLAND REALM (1.21.4)
+# Developed & Created by: filipGFF1
+# All Rights Reserved. Build: ORIGINAL-AUTHENTIC-filipGFF1
+# =========================================================================
+
+# -------------------------------------------------------------------------
+# Multi-Language Localization Engine
+# -------------------------------------------------------------------------
+# Choose the plugin interface & messaging language:
+#   "en" - English (Default / Domyślny / Predeterminado)
+#   "pl" - Polish (Polski)
+#   "es" - Spanish (Español)
+#
+# Note: You can customize any message in messages_en.yml, messages_pl.yml,
+# or messages_es.yml located in this plugin's folder.
+language: "en"
+
+# ==========================================
+# Konfiguracja Terytorium i Bastionów
+# ==========================================
+
+territory:
+  bastion_radius: 65
+  watchtower_radius: 35
+  supply_route_max_gap: 45
+  customs_tax_cooldown_seconds: 120
+
+production:
+  farm_radius: 20
+  sawmill_radius: 15
+  starvation_penalty: 0.40 # 40% spowolnienia przy braku chleba
+
+economy:
+  gdp_calculation_interval_ticks: 24000 # Co 24 godziny w grze
+  trade_tax_rate: 0.005 # 0.5% dla Władcy Handlu Wyspy
+  base_inflation_threshold: 1.0
+
+military:
+  barracks_npc_capacity: 6
+  paolo_permadeath: true
+  paolo_drumroll_duration_seconds: 30
+  paolo_last_stand_threshold: 0.30 # 30% HP
+  paolo_last_stand_reduction: 0.60 # 60% redukcji obrażeń
+
+pirates:
+  raid_interval_days: 3
+  tribute_gold_required: 16
+  tribute_bread_required: 32
+  tribute_window_seconds: 180
+
+restoration:
+  blocks_per_tick: 4
+  tick_interval: 2
+
+wildlife:
+  boost_animal_spawns: true # Wlacza odradzanie sie dzikiej zwierzyny na wyspach
+  interval_seconds: 45      # Co ile sekund sprawdza i odnawia populacje zwierzat
+  max_nearby_animals: 10    # Maksymalna liczba zwierzat w promieniu 32 kratek od gracza
+
+hunger:
+  faster_hunger: true           # Aktywuje dynamiczny balans glodu (przywraca znaczenie jedzenia i farm)
+  exhaustion_multiplier: 2.5    # Mnoznik spalania glodu (sprint, skakanie, plywanie, kopanie: 2.5x szybciej)
+  passive_drain_seconds: 90     # Co ile sekund dodawac lekkie wyczerpanie przy bezczynnosci (0 = wylaczone)

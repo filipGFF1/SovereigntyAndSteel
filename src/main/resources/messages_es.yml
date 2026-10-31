@@ -1,0 +1,116 @@
+# ==========================================
+# Sovereignty & Steel: Island Realm (1.21.4)
+# Paquete de Idioma Español (Spanish)
+# Autor: filipGFF1
+# ==========================================
+
+general:
+  prefix: "&6&l[SOVEREIGNTY]&r "
+  only_players: "&c¡Solo los jugadores pueden gobernar una nación!"
+  no_permission: "&cNo tienes permisos para ejecutar este comando."
+  player_not_found: "&cJugador no encontrado: &e{player}"
+  invalid_number: "&c¡Por favor introduce un número positivo válido!"
+  nation_not_found: "&c¡No se encontró ninguna nación con ese nombre!"
+  must_be_in_nation: "&c¡Debes pertenecer a una nación para usar este comando!"
+  leader_or_officer_only: "&c¡Solo el Gobernante o un Oficial puede realizar esta acción!"
+  combat_tagged: "&c¡No puedes ejecutar comandos en combate! (Combat-Tag: {seconds}s restantes)"
+
+bank:
+  title: "&6&l======== [ TESORERÍA NACIONAL: {nation} ] ========"
+  balance: "&7Balance en la Tesorería Vault: &6&l{balance}"
+  regime: "&7Régimen Político: &f{regime}"
+  tech_tier: "&7Nivel Tecnológico: &b{tech}"
+  vault_tier: "&7Capacidad de Bóveda Nacional: &e{vault} &8({slots} ranuras)"
+  autosell_status: "&6⭐ Módulo Auto-Sell: {status}"
+  autosell_on: "&aACTIVADO"
+  autosell_off: "&cDESACTIVADO"
+  fortifications: "&7Fortificaciones Fronterizas: &e{wall}"
+  chunks_owned: "&7Chunks Reclamados: &e{count} chunks"
+  daily_upkeep: "&7Costo de Mantenimiento Diario: &c{total} &8({per_chunk}/chunk)"
+  status_debt: "&c&lESTADO: EN DEUDA (&4Día {days}/3&c) &7- ¡Bonificaciones de doctrina desactivadas!"
+  status_stable: "&a&lESTADO: FINANZAS ESTABLES &7(Todos los beneficios activos)"
+  usage_deposit: "&eDepositar fondos: &f/pais depositar <cantidad>"
+  usage_withdraw: "&eRetirar fondos: &f/pais retirar <cantidad> &7(Solo Gobernante/Oficial)"
+  usage_vault: "&eAbrir bóvedas: &f/pais tesoro &7[1-5|mejorar|autosell]"
+  deposited: "&a¡Se depositaron con éxito &6{amount} &aen la Tesorería Nacional!"
+  withdrawn: "&a¡Se retiraron con éxito &6{amount} &ade la Tesorería Nacional!"
+  insufficient_funds_player: "&c¡No tienes suficiente dinero en tu billetera! Requerido: {amount}"
+  insufficient_funds_nation: "&c¡La Tesorería Nacional no tiene fondos suficientes! Disponible: {balance}"
+
+vault:
+  page_locked: "&c¡El cofre #{page} de la bóveda aún no ha sido desbloqueado!"
+  upgrade_hint: "&eUsa /pais tesoro mejorar para ampliar tu almacenamiento."
+  autosell_requires_netherite: "&c¡El módulo Auto-Sell requiere la Bóveda de Nivel V (Netherita)!"
+  autosell_toggled: "&6&l[AUTO-SELL] &fEl estado de Auto-Sell ha cambiado a: {status}"
+  sold_summary: "&6&l[AUTO-SELL] &f¡Recursos liquidados en todas las bóvedas por: &a+{earned} &7(depositado en Tesorería)!"
+  empty_or_no_sellables: "&eLos cofres de la bóveda están vacíos o no contienen recursos vendibles."
+
+claim:
+  success: "&a¡Se reclamó con éxito el chunk &e({x}, {z}) &apara &f{nation}&a!"
+  cost_deducted: "&7Costo de registro de territorio de &6{cost} &7deducido de la Tesorería."
+  already_claimed: "&c¡Este chunk ya pertenece a la nación {nation}!"
+  max_chunks_reached: "&c¡Tu nación alcanzó el límite máximo de chunks ({max}) para su nivel tecnológico!"
+  not_adjacent: "&c¡Los nuevos chunks deben ser adyacentes a tu territorio o al Núcleo de Bastión!"
+  unclaim_success: "&eSe renunció al chunk &f({x}, {z})&e con éxito. El territorio volvió a la naturaleza salvaje."
+  cannot_unclaim_core: "&c¡No puedes renunciar al chunk que contiene tu Núcleo de Bastión!"
+
+create:
+  success: "&a¡Se fundó con éxito la nueva nación isleña: &e{name} &8[&f{tag}&8]&a!"
+  fee_deducted: "&7Cuota de registro pagada: &6{cost}"
+  bastion_given: "&eRecibiste el &5Núcleo de Bastión&e. ¡Colócalo en un punto estratégico para fundar tu capital!"
+  already_in_nation: "&c¡Ya perteneces a una nación! Abandona tu nación actual primero."
+  name_taken: "&c¡Ya existe una nación con ese nombre o etiqueta!"
+
+invite:
+  sent: "&a¡Invitación de nación enviada al jugador &6{player}&a!"
+  received: "&e¡Recibiste una invitación oficial para unirte a &f{name} &8[{tag}] &ede parte de &f{sender}&e!\n&aEscribe &e/pais unirse {name} &apara aceptar (expira en 2 minutos)."
+  already_member: "&e¡El jugador {player} ya es ciudadano de tu nación!"
+  already_in_other: "&c¡El jugador {player} ya pertenece a otra nación ({nation})!"
+  cannot_invite_self: "&c¡No puedes invitarte a ti mismo!"
+
+join:
+  success: "&a¡Te has unido con éxito como ciudadano oficial de &f{name}&a!"
+  broadcast: "&6[NACIÓN] &a¡El jugador &e{player} &ase ha unido a la nación!"
+  no_invite: "&c¡No tienes una invitación activa para unirte a &f{name}&c!"
+  left_current_first: "&c¡Ya perteneces a una nación! Sal de ella primero usando /pais abandonar."
+
+leave:
+  success: "&eHas abandonado tu nación."
+  is_leader: "&c¡Como Gobernante no puedes abandonar la nación! Transfiere el liderazgo o disuelve con /pais disolver CONFIRMAR."
+
+disband:
+  warning: "&4&lADVERTENCIA: &c¡Esto eliminará permanentemente tu nación, expulsará a los ciudadanos y borrará tus tierras!\n&ePara confirmar escribe: &f/pais disolver CONFIRMAR"
+  broadcast: "&4&l[CAÍDA DE UN REINO] &cLa nación de &f{name} &cha sido disuelta por su Gobernante.\n&7Sus tierras han regresado a la naturaleza indomable..."
+
+help:
+  header: "&6&l=== Sovereignty & Steel: Island Realm (1.21.4) ==="
+  bank: "&e/pais banco &7(o &e/banco&7) - &fTesorería Nacional, finanzas y mantenimiento"
+  vault: "&e/pais tesoro [1-5|mejorar|autosell] &7- &fBóvedas de almacenamiento y venta automática"
+  deposit: "&e/pais depositar <cantidad> &7- &fDepositar dinero en la Tesorería"
+  withdraw: "&e/pais retirar <cantidad> &7- &fRetirar dinero de la Tesorería (Gobernante/Oficial)"
+  claim: "&e/pais reclamar &7(o &e/claim&7) - &fReclamar chunk actual para la nación"
+  unclaim: "&e/pais renunciar &7(o &e/unclaim&7) - &fRenunciar al chunk actual"
+  wall: "&e/pais muro &7- &fAdministrar murallas defensivas autorreparables"
+  regime: "&e/pais regimen &7- &fElegir doctrina política nacional (8 doctrinas)"
+  tech: "&e/pais tecnologia &7- &fÁrbol de investigación tecnológica (Nivel I - V)"
+  color: "&e/pais color <#HEX> &7- &fCambiar color en mapas web (Dynmap, Squaremap, etc.)"
+  territory: "&e/pais territorio &7(o &e/teren&7) - &fInspeccionar el territorio actual"
+  recipes: "&e/pais recetas &7(o &e/crafting&7) - &fVer recetas y máquinas personalizadas"
+  create: "&e/pais crear <nombre> <tag> &7- &fFundar una nueva nación y recibir el Bastión"
+  invite: "&e/pais invitar <jugador> &7- &fInvitar a un jugador a tu nación"
+  join: "&e/pais unirse <nombre> &7- &fAceptar invitación y unirse a una nación"
+  leave: "&e/pais abandonar &7- &fAbandonar tu nación actual"
+  disband: "&e/pais disolver CONFIRMAR &7- &4Disolver permanentemente&7 tu nación"
+  info: "&e/pais info [nombre] &7- &fInspeccionar economía, PIB, murallas y ejército"
+  mint: "&e/pais ceca <cobre|oro> <cantidad> &7- &fAcuñar monedas nacionales"
+  top: "&e/pais top &7- &fAbrir la tabla de posiciones de la isla"
+  war: "&e/pais guerra <nación> &7- &fDeclarar la guerra a un reino rival"
+  relation: "&e/pais relacion <alianza|pna|neutral|rival> <nación> &7- &fPactos diplomáticos"
+  surrender: "&e/pais rendirse &7- &fRendirse en guerra (ceder 25% tierra, 70% tesoro, tributo)"
+  siegewindow: "&e/pais ventana <desde> <hasta> &7- &fConfigurar ventana de asedio de bastión"
+  chat: "&e/tc <msg> &7- &fChat de nación | &e/ac <msg> &7- &fChat de aliados"
+  general: "&e/pais general &7(o &e/pais tambor&7) - &fHabilidad de marcha de guerra del General Paolo"
+  tribute: "&e/pais tributo &7- &fPagar tributo a las flotas piratas"
+  trash: "&e/pais basura &7(o &e/trash&7) - &fContenedor de eliminación de residuos"
+  sit: "&e/pais sentarse &7(o &e/sit&7) - &fSentarse en escaleras, sillas o el suelo"
+  author: "&e/pais autor &7- &fCredenciales oficiales del plugin y créditos de desarrollo"
