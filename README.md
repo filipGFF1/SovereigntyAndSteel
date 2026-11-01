@@ -46,44 +46,44 @@ If any custom key is omitted or missing in a translated file, the engine automat
 Players on international servers can comfortably use commands in their native language:
 
 ### English Commands (Default):
-- `/country` (or `/nation`, `/kingdom`, `/sovereignty`) â€” Opens the main management dashboard and command guide.
-- `/country create <name> <tag>` â€” Founds a new island realm and awards the mystical **Bastion Core**.
-- `/country bank` (or `/bank`, `/treasury`) â€” Inspects the National Treasury, Vault balance, and daily Upkeep status.
+- `/country` (or `/nation`, `/kingdom`, `/sovereignty`) ” Opens the main management dashboard and command guide.
+- `/country create <name> <tag>` ” Founds a new island realm and awards the mystical **Bastion Core**.
+- `/country bank` (or `/bank`, `/treasury`) ” Inspects the National Treasury, Vault balance, and daily Upkeep status.
 - `/country deposit <amount>` / `/country withdraw <amount>` â€” Financial transactions with the National Treasury.
-- `/country vault [1-5|upgrade|autosell]` â€” Accesses multi-page secure storage and configures Auto-Sell liquidation.
+- `/country vault [1-5|upgrade|autosell]` ” Accesses multi-page secure storage and configures Auto-Sell liquidation.
 - `/country claim` (or `/claim`) â€” Assimilates the current chunk into the nation's borders with anti-abuse cooldowns.
 - `/country unclaim` (or `/unclaim`) â€” Relinquishes the current chunk back to the untamed wilderness.
-- `/country wall` â€” Opens the interactive border fortification and automated wall management GUI.
-- `/country regime` â€” Opens the Political Doctrine selection menu (8 unique doctrines).
+- `/country wall` ” Opens the interactive border fortification and automated wall management GUI.
+- `/country regime` ” Opens the Political Doctrine selection menu (8 unique doctrines).
 - `/country tech` (or `/country upgrades`) â€” Opens the national technology research tree (Tier I to V).
-- `/country color <#HEX>` â€” Customizes nation territory border colors on web maps (Squaremap, Dynmap, BlueMap, Pl3xMap).
+- `/country color <#HEX>` ” Customizes nation territory border colors on web maps (Squaremap, Dynmap, BlueMap, Pl3xMap).
 - `/country territory` (or `/teren`, `/land`) â€” Inspects the allegiance of the chunk you are currently standing in.
 - `/country recipes` (or `/crafting`) â€” Interactive 3x3 recipe book showcasing all custom items and siege engines.
-- `/country invite <player>` / `/country join <name>` / `/country leave` â€” Citizen recruitment and membership.
-- `/country war <nation>` / `/country relation <ally|nap|neutral|rival> <nation>` â€” International diplomacy and warfare.
-- `/country surrender` â€” Formally surrenders a war (cedes 25% territory, 70% treasury, and establishes tribute).
+- `/country invite <player>` / `/country join <name>` / `/country leave` ” Citizen recruitment and membership.
+- `/country war <nation>` / `/country relation <ally|nap|neutral|rival> <nation>` ” International diplomacy and warfare.
+- `/country surrender` ” Formally surrenders a war (cedes 25% territory, 70% treasury, and establishes tribute).
 - `/country siegewindow <from> <to>` â€” Configures your 3-to-4 hour daily bastion defense window to prevent offline raids.
 - `/country general` (or `/country drumroll`) â€” Activates General Paolo Or'e's War March combat aura.
-- `/country tribute` â€” Negotiates and pays tributes to pirate fleets.
+- `/country tribute` ” Negotiates and pays tributes to pirate fleets.
 - `/country trash` (or `/trash`, `/kosz`) â€” Portable item disposal bin.
 - `/country sit` (or `/sit`) â€” Sit down on stairs, slabs, chairs, or flat ground.
-- `/country author` (or `/country about`, `/country version`) â€” Displays official developer credentials for `filipGFF1`.
-- `/tc <message>` â€” Encrypted town / nation internal chat channel.
-- `/ac <message>` â€” Allied cross-nation communication channel.
+- `/country author` (or `/country about`, `/country version`) ” Displays official developer credentials for `filipGFF1`.
+- `/tc <message>` ” Encrypted town / nation internal chat channel.
+- `/ac <message>` ” Allied cross-nation communication channel.
 
 ### Polish Commands (`pl`):
-- `/panstwo` (or `/kraj`) â€” GĹ‚Ăłwne menu zarzÄ…dzania paĹ„stwem wyspiarskim.
+- `/panstwo` (or `/kraj`)  Główne menu zarządzania państwem wyspiarskim.
 - `/panstwo stworz <nazwa> <tag>` / `/panstwo zapros <gracz>` / `/panstwo dolacz <nazwa>`.
 - `/panstwo bank` / `/panstwo wplac` / `/panstwo wyplac` / `/panstwo skarbiec`.
 - `/panstwo claim` / `/panstwo unclaim` / `/panstwo mur` / `/panstwo ustroj` / `/panstwo upgrady`.
-- `/panstwo autor` â€” Oficjalny certyfikat autorstwa twĂłrcy `filipGFF1`.
+- `/panstwo autor`  Oficjalny certyfikat autorstwa twórcy `filipGFF1`.
 
 ### Spanish Commands (`es`):
-- `/pais` (or `/reino`) â€” MenĂş principal de gestiĂłn de la naciĂłn isleĂ±a.
+- `/pais` (or `/reino`) ” MenĂş principal de gestiĂłn de la naciĂłn isleĂ±a.
 - `/pais crear <nombre> <tag>` / `/pais invitar <jugador>` / `/pais unirse <nombre>`.
 - `/pais banco` / `/pais depositar` / `/pais retirar` / `/pais tesoro`.
 - `/pais reclamar` / `/pais renunciar` / `/pais muro` / `/pais regimen` / `/pais tecnologia`.
-- `/pais autor` â€” Credenciales oficiales del desarrollador `filipGFF1`.
+- `/pais autor` ” Credenciales oficiales del desarrollador `filipGFF1`.
 
 ---
 
