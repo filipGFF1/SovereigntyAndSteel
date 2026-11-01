@@ -12,10 +12,6 @@
 
 Unlike traditional town or claim plugins that treat the world as a flat, boring grid, **Sovereignty & Steel** turns your server into a living, breathing oceanic archipelago of rival empires, trade networks, automated fortress walls, and maritime warfare. Players don't just "claim land" — they found dynasties, choose from 8 distinct political doctrines, commission legendary generals, defend against pirate flotillas, and build self-repairing battlements.
 
-> [!IMPORTANT]
-> **Anti-Plagiarism & Authenticity Certification**:  
-> This software contains immutable licensing signatures verifying **`filipGFF1`** as the sole author and creator (`AUTHOR = "filipGFF1"`, signature `SOVEREIGNTY-STEEL-v1.0.0-FILIPGFF1-ORIGINAL`). Server administrators cannot remove or tamper with developer credits. Commands like `/country author`, `/panstwo autor`, console startup watermarks, and GUI headers permanently guarantee the plugin's authenticity.
-
 ---
 
 ## 🌐 Multi-Language Localization Engine
