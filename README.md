@@ -6,7 +6,7 @@
 
 ---
 
-## đźŚź Overview
+## Overview
 
 **Sovereignty & Steel: Island Realm** is a next-generation geopolitical, kingdom management, and territorial warfare engine engineered specifically for Minecraft 1.21.4 island survival and civilization servers.
 
@@ -14,7 +14,7 @@ Unlike traditional town or claim plugins that treat the world as a flat, boring 
 
 ---
 
-##  Multi-Language Localization Engine
+##  Multi-Language Localization Engine
 
 Sovereignty & Steel comes with complete out-of-the-box internationalization. On a clean installation, the plugin greets players and server owners in **English (`en`)** by default.
 
