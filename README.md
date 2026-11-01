@@ -1,6 +1,6 @@
-﻿# âš”ď¸Ź Sovereignty & Steel: Island Realm (1.21.4)
+﻿# Sovereignty & Steel: Island Realm (1.21.4)
 **The Ultimate Island Nation, Geopolitical & Civilization Plugin for Modern Minecraft Servers**  
-**Official Author & Lead Developer**: `filipGFF1` â€˘ **Version**: `1.0.0` â€˘ **Platform**: Paper / Purpur 1.21.4
+**Official Author & Lead Developer**: `filipGFF1` ˘ **Version**: `1.0.0` ˘ **Platform**: Paper / Purpur 1.21.4
 
 ![Sovereignty & Steel Banner](./sovereignty_thumbnail.jpg)
 
@@ -12,13 +12,9 @@
 
 Unlike traditional town or claim plugins that treat the world as a flat, boring grid, **Sovereignty & Steel** turns your server into a living, breathing oceanic archipelago of rival empires, trade networks, automated fortress walls, and maritime warfare. Players don't just "claim land" â€” they found dynasties, choose from 8 distinct political doctrines, commission legendary generals, defend against pirate flotillas, and build self-repairing battlements.
 
-> [!IMPORTANT]
-> **Anti-Plagiarism & Authenticity Certification**:  
-> This software contains immutable, hardcoded licensing signatures verifying **`filipGFF1`** as the sole author and creator (`AUTHOR = "filipGFF1"`, signature `SOVEREIGNTY-STEEL-v1.0.0-FILIPGFF1-ORIGINAL`). Server administrators cannot remove or tamper with developer credits. Commands like `/country author`, `/panstwo autor`, console startup watermarks, and GUI headers permanently guarantee the plugin's authenticity.
-
 ---
 
-## đźŚ Multi-Language Localization Engine
+##  Multi-Language Localization Engine
 
 Sovereignty & Steel comes with complete out-of-the-box internationalization. On a clean installation, the plugin greets players and server owners in **English (`en`)** by default.
 
@@ -45,7 +41,7 @@ If any custom key is omitted or missing in a translated file, the engine automat
 
 ---
 
-## âŚ¨ď¸Ź Localized Commands & Native Aliases
+## Localized Commands & Native Aliases
 
 Players on international servers can comfortably use commands in their native language:
 
@@ -91,7 +87,7 @@ Players on international servers can comfortably use commands in their native la
 
 ---
 
-## đźŹ° Deep Gameplay Mechanics
+## ° Deep Gameplay Mechanics
 
 ### 1. Bastion Cores & Capital Founding
 When founding a nation (`/country create`), the sovereign receives an ancient **Bastion Core**. Placing this artifact on an island anchors the capital city:
@@ -145,7 +141,7 @@ Engineered for agile island skirmishers and duelists:
 
 ---
 
-## âš™ď¸Ź Installation & Requirements
+## Installation & Requirements
 
 1. Download **`sovereignty-steel.jar`** from your Desktop (`C:\Users\pimpe\OneDrive\Pulpit\sovereignty-steel.jar`).
 2. Drop it into your server's `/plugins/` folder.
@@ -156,7 +152,7 @@ Engineered for agile island skirmishers and duelists:
 
 ---
 
-## đź“ś Permissions Summary
+## Permissions Summary
 
 | Permission Node | Default | Description |
 | :--- | :--- | :--- |
@@ -164,9 +160,3 @@ Engineered for agile island skirmishers and duelists:
 | `sovereignty.admin` | `op` (Administrators) | Full access to administrative bypass, force disband, and debugging tools |
 
 ---
-
-<div align="center">
-  <b>Developed with passion by filipGFF1</b><br>
-  <i>Official 2026 Minecraft Island Nation Engine â€˘ All Rights Reserved</i>
-</div>
-
